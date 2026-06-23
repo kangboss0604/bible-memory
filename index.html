@@ -1,0 +1,692 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="ko"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;2027 성서선교회 목사고시 성경 암송 프로그램&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bg-color: #f7f5f0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--card-bg: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--primary-color: #1e293b;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--accent-color: #2563eb;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--text-main: #334155;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--text-muted: #64748b;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--border-color: #e2e8f0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Noto Serif KR', 'Nanum Myeongjo', Georgia, serif;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--bg-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-main);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>header h1 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: -0.5px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>header p {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.95rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-muted);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.category-tabs {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 15px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.tab-btn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--card-bg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 8px 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-muted);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.2s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.tab-btn.active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--primary-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--primary-color);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.control-panel {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--card-bg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 12px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 2px 4px rgba(0,0,0,0.02);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.mode-group {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.mode-btn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f1f5f9;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 8px 14px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.85rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-main);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.15s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.mode-btn.active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--accent-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.jump-group {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.jump-input {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.main-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 950px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-grow: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-arrow {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--card-bg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 6px rgba(0,0,0,0.05);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.2s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>user-select: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-arrow:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--primary-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-wrapper {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-grow: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bible-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--card-bg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 280px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-meta {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 0.5px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-text {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.45rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>word-break: keep-all;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-verse {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.15rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-muted);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 가림막 블러 처리 스타일 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.blind {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>filter: blur(5.5px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #e2e8f0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0 2px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 1px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.2s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>user-select: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.blind:hover, .blind:active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>filter: blur(0px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary-color);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>footer {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.progress-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--border-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 3px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.progress-bar {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--accent-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 0%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: width 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.footer-info {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.85rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-muted);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 640px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>body { padding: 10px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>header h1 { font-size: 1.4rem; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.main-container { gap: 5px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.nav-arrow { width: 40px; height: 40px; font-size: 1rem; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.bible-card { padding: 25px 15px; min-height: 220px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.card-text { font-size: 1.2rem; line-height: 1.6; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.control-panel { padding: 10px; justify-content: center; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;2027 성서선교회 목사고시 성경&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;사단법인 한국성서선교회 (신구약 총 220절 암송)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="category-tabs"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="tab-btn active" onclick="filterCategory('all')"&gt;전체보기 (1~220)&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="tab-btn" onclick="filterCategory('OT')"&gt;구약 (1~110)&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="tab-btn" onclick="filterCategory('NT')"&gt;신약 (1~110)&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="control-panel"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="mode-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="mode-btn active" onclick="changeMode('origin')"&gt;처음으로&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="mode-btn" onclick="changeMode('partial')"&gt;부분 가리기&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="mode-btn" onclick="changeMode('random')"&gt;랜덤 가리기&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="mode-btn" onclick="changeMode('all')"&gt;전체 가리기&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="jump-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="jumpIdx"&gt;이동:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="number" id="jumpIdx" class="jump-input" min="1" max="220" onchange="jumpToVerse(this.value)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span id="totalCount"&gt;/ 220&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="main-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="nav-arrow" onclick="prevVerse()"&gt;←&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card-wrapper"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="bible-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-meta" id="verseMeta"&gt;구약 1번&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-text" id="verseText"&gt;태초에 하나님이 천지를 창조하시니라.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-verse" id="verseRef"&gt;(창 1:1)&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="nav-arrow" onclick="nextVerse()"&gt;→&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="progress-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="progress-bar" id="progressBar"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="footer-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span id="progressText"&gt;0% 완료&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span&gt;힌트: 가려진 단어 위에 마우스를 올리거나 터치하면 보입니다.&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 전체 220개 성경 데이터 주입</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const bibleData = [</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 구약 110선</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 1, cat: "OT", num: 1, ref: "창 1:1", text: "태초에 하나님이 천지를 창조하시니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 2, cat: "OT", num: 2, ref: "창 1:26~27", text: "하나님이 이르시되 우리의 형상을 따라 우리의 모양대로 우리가 사람을 만들고 그들로 바다의 물고기와 하늘의 새와 가축과 온 땅과 땅에 기는 모든 것을 다스리게 하자 하시고 하나님이 자기 형상 곧 하나님의 형상대로 사람을 창조하시되 남자와 여자를 창조하시고" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 3, cat: "OT", num: 3, ref: "창 2:10~14", text: "강이 에덴에서 흘러 나와 동산을 적시고 거기서부터 갈라져 네 근원이 되었으니 첫째의 이름은 비손이라 금이 있는 하윌라 온 땅을 둘렀으며 그 땅의 금은 순금이요 그 곳에는 베델리엄과 호마노도 있으며 둘째 강의 이름은 기혼이라 구스 온 땅을 둘렀고 셋째 강의 이름은 힛데겔이라 앗수르 동쪽으로 흘렀으며 넷째 강은 유브라데더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 4, cat: "OT", num: 4, ref: "창 3:15", text: "내가 너로 여자와 원수가 되게 하고 네 후손도 여자의 후손과 원수가 되게 하리니 여자의 후손은 네 머리를 상하게 할 것이요 너는 그의 발꿈치를 상하게 할 것이니라 하시고" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 5, cat: "OT", num: 5, ref: "창 4:25~26", text: "아담이 다시 자기 아내와 동침하매 그가 아들을 낳아 그의 이름을 셋이라 하였으니 이는 하나님이 내게 가인이 죽인 아벨 대신에 다른 씨를 주셨다 함이며 셋도 아들을 낳고 그의 이름을 에노스라 하였으며 그 때에 사람들이 비로소 여호와의 이름을 불렀더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 6, cat: "OT", num: 6, ref: "창 11:26~28", text: "데라는 칠십 세에 아브람과 나홀과 하란을 낳았더라 데라의 족보는 이러하니라 데라는 아브람과 나홀과 하란을 낳고 하란은 롯을 낳았으며 하란은 그 아비 데라보다 먼저 고향 갈대아인의 우르에서 죽었더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 7, cat: "OT", num: 7, ref: "창 12:1~4", text: "여호와께서 아브람에게 이르시되 너는 너의 고향과 친척과 아버지의 집을 떠나 내가 네게 보여 줄 땅으로 가라 내가 너로 큰 민족을 이루고 네게 복을 주어 네 이름을 창대하게 하리니 너는 복이 될지라 너를 축복하는 자에게는 내가 복을 내리고 너를 저주하는 자에게는 내가 저주하리니 땅의 모든 족속이 너로 말미암아 복을 얻을 것이라 하신지라 이에 아브람이 여호와의 말씀을 따라갔고 롯도 그와 함께 갔으며 아브람이 하란을 떠날 때에 칠십오 세였더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 8, cat: "OT", num: 8, ref: "창 15:6", text: "아브람이 여호와를 믿으니 여호와께서 이를 그의 의로 여기시고" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 9, cat: "OT", num: 9, ref: "창 17:7", text: "내가 내 언약을 나와 너 및 네 대대 후손 사이에 세워서 영원한 언약을 삼고 너와 네 후손의 하나님이 되리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 10, cat: "OT", num: 10, ref: "창 23:16~18", text: "아브라함이 에브론의 말을 따라 에브론이 헷 족속이 듣는 데서 말한 대로 상인이 통용하는 은 사백 세겔을 달아 에브론에게 주었더니 마므레 앞 막벨라에 있는 에브론의 밭 곧 그 밭과 거기에 속한 굴과 그 밭과 그 주위에 둘린 모든 나무가 성문에 들어온 모든 헷 족속이 보는 데서 아브라함의 소유로 확정된지라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 11, cat: "OT", num: 11, ref: "창 49:10", text: "규가 유다를 떠나지 아니하며 통치자의 지팡이가 그 발 사이에서 떠나지 아니하기를 실로가 오시기까지 이르리니 그에게 모든 백성이 복종하리로다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 12, cat: "OT", num: 12, ref: "출 3:13~15", text: "모세가 하나님께 아뢰되 내가 이스라엘 자손에게 가서 이르기를 너희의 조상의 하나님이 나를 너희에게 보내셨다 하면 그들이 내게 묻기를 그의 이름이 무엇이냐 하리니 내가 무엇이라고 그들에게 말하리이까 하나님이 모세에게 이르시되 나는 스스로 있는 자이니라 또 이르시되 너는 이스라엘 자손에게 이같이 이르기를 스스로 있는 자가 나를 너희에게 보내셨다 하라 하나님이 또 모세에게 이르시되 너는 이스라엘 자손에게 이같이 이르기를 너희 조상의 하나님 여호와 곧 아브라함의 하나님, 이삭의 하나님, 야곱의 하나님께서 나를 너희에게 보내셨다 하라 이는 나의 영원한 이름이요 대대로 기억할 나의 칭호니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 13, cat: "OT", num: 13, ref: "출 19:5~6", text: "세계가 다 내게 속하였나니 너희가 내 말을 잘 듣고 내 언약을 지키면 너희는 모든 민족 중에서 내 소유가 되겠고 너희가 내게 대하여 제사장 나라가 되며 거룩한 백성이 되리라 너는 이 말을 이스라엘 자손에게 전할지니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 14, cat: "OT", num: 14, ref: "레 17:11", text: "육체의 생명은 피에 있음이라 내가 이 피를 너희에게 주어 제단에 뿌려 너희의 생명을 위하여 속죄하게 하였나니 생명이 피에 있으므로 피가 죄를 속하느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 15, cat: "OT", num: 15, ref: "레 19:2", text: "너는 이스라엘 자손의 온 회중에게 말하여 이르라 너희는 거룩하라 이는 나 여호와 너희 하나님이 거룩함이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 16, cat: "OT", num: 16, ref: "민 23:19", text: "하나님은 사람이 아니시니 거짓말을 하지 않으시고 인생이 아니시니 후회가 없으시도다 어찌 그 말씀하신 바를 행하지 않으시며 하신 말씀을 실행하지 않으시랴" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 17, cat: "OT", num: 17, ref: "신 6:4~5", text: "이스라엘아 들으라 우리 하나님 여호와는 오직 유일한 여호와이시니 너는 마음을 다하고 뜻을 다하고 힘을 다하여 네 하나님 여호와를 사랑하라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 18, cat: "OT", num: 18, ref: "신 7:6~7", text: "너는 여호와 네 하나님의 성민이라 네 하나님 여호와께서 지상 만민 중에서 너를 자기 기업의 백성으로 택하셨나니 여호와께서 너희를 기뻐하시고 너희를 택하심은 너희가 다른 민족보다 수효가 많기 때문이 아니니라 너희는 오히려 모든 민족 중에 가장 적으니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 19, cat: "OT", num: 19, ref: "신 8:2~3", text: "네 하나님 여호와께서 이 사십 년 동안에 네게 광야 길을 걷게 하신 것을 기억하라 이는 너를 낮추시며 너를 시험하사 네 마음이 어떠한지 그 명령을 지키는지 지키지 않는지 알려 하심이라 너를 낮추시며 너를 주리게 하시며 또 너도 알지 못하며 네 조상들도 알지 못하던 만나를 네게 먹이신 것은 사람이 떡으로만 사는 것이 아니요 여호와의 입에서 나오는 모든 말씀으로 사는 줄을 네가 알게 하려 하심이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 20, cat: "OT", num: 20, ref: "신 10:12~13", text: "이스라엘아 네 하나님 여호와께서 네게 요구하시는 것이 무엇이냐 곧 네 하나님 여호와를 경외하여 그의 모든 도를 행하고 그를 사랑하며 마음을 다하고 뜻을 다하여 네 하나님 여호와를 섬기고 내가 오늘 네 행복을 위하여 네게 명하는 여호와의 명령과 규례를 지킬 것이 아니냐" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 21, cat: "OT", num: 21, ref: "신 18:15", text: "네 하나님 여호와께서 너희 가운데 네 형제 중에서 너를 위하여 나와 같은 선지자 하나를 일으키시리니 너희는 그의 말을 들을지니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 22, cat: "OT", num: 22, ref: "신 29:29", text: "감추어진 일은 우리 하나님 여호와께 속하였거니와 나타난 일은 영원히 우리와 우리 자손에게 속하였나니 이는 우리에게 이 율법의 모든 말씀을 행하게 하심이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 23, cat: "OT", num: 23, ref: "수 1:9", text: "내가 네게 명령한 것이 아니냐 강하고 담대하라 두려워하지 말며 놀라지 말라 네가 어디로 가든지 네 하나님 여호와가 너와 함께 하느니라 하시니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 24, cat: "OT", num: 24, ref: "수 24:14~15", text: "그러므로 이제는 여호와를 경외하며 온전함과 진실함으로 그를 섬기라 너희의 조상들이 강 저쪽과 애굽에서 섬기던 신들을 치워 버리고 여호와만 섬기라 만일 여호와를 섬기는 것이 너희에게 좋지 않게 보이거든 너희 조상들이 강 저쪽에서 섬기던 신들이든지 또는 너희가 거주하는 땅에 있는 아모리 족속의 신들이든지 너희가 섬길 자를 오늘 택하라 오직 나와 내 집은 여호와를 섬기겠노라 하니" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 25, cat: "OT", num: 25, ref: "수 14:12", text: "그 날에 여호와께서 말씀하신 이 산지를 지금 내게 주소서 당신도 그 날에 들으셨거니와 그 곳에는 아낙 사람이 있고 그 성읍들은 크고 견고할지라도 여호와께서 나와 함께 하시면 내가 여호와께서 말씀하신 대로 그들을 쫓아내리이다 하니" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 26, cat: "OT", num: 26, ref: "삿 21:25", text: "그 때에 이스라엘에 왕이 없으므로 사람이 각기 자기의 소견에 옳은 대로 행하였더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 27, cat: "OT", num: 27, ref: "룻 1:16~17", text: "룻이 이르되 내게 어머니를 떠나며 어머니를 따르지 말고 돌아가라 강권하지 마옵소서 어머니께서 가시는 곳에 나도 가고 어머니께서 머무시는 곳에서 나도 머물겠나이다 어머니의 백성이 나의 백성이 되고 어머니의 하나님이 나의 하나님이 되시리니 어머니께서 죽으시는 곳에서 나도 죽어 거기 묻힐 것이라 만일 내가 죽는 일 외에 어머니를 떠면 여호와께서 내게 벌을 내리시고 더 내리시기를 원하나이다 하는지라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 28, cat: "OT", num: 28, ref: "룻 4:18~22", text: "베레스의 계보는 이러하니라 베레스는 헤스론을 낳고 헤스론은 람을 낳았고 람은 암미나답을 낳았고 암미나답은 나손을 낳았고 나손은 살몬을 낳았고 살몬은 보아스를 낳았고 보아스는 오벳을 낳았고 오벳은 이새를 낳고 이새는 다윗을 낳았더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 29, cat: "OT", num: 29, ref: "삼상 1:17~20", text: "엘리가 대답하여 이르되 평안히 가라 이스라엘의 하나님이 네가 기도하여 구한 것을 허락하시기를 원하노라 하니 이르되 당신의 여종이 당신께 은혜 입기를 원하나이다 하고 가서 먹고 얼굴에 다시는 근심 빛이 없더라 그들이 아침에 일찍이 일어나 여호와 앞에 경배하고 돌아가 라마의 자기 집에 이르니라 엘가나가 그의 아내 한나와 동침하매 여호와께서 그를 생각하신지라 한나가 임신하고 때가 이르매 아들을 낳아 사무엘이라 이름하였으니 이는 내가 여호와께 그를 구하였다 함이더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 30, cat: "OT", num: 30, ref: "삼상 12:22~25", text: "여호와께서는 너희를 자기 백성으로 삼으신 것을 기뻐하셨으므로 여호와께서는 그의 크신 이름을 위해서라도 자기 백성을 버리지 아니하실 것이요 나는 너희를 위하여 기도하기를 쉬는 죄를 여호와 앞에 결단코 범하지 아니하고 선하고 의로운 길을 너희에게 가르칠 것인즉 너희는 여호와께서 너희를 위하여 행하신 그 큰 일을 생각하여 오직 그를 경외하며 너희의 마음을 다하여 진실히 섬기라 만일 너희가 여전히 악을 행하면 너희와 너희 왕이 다 멸망하리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 31, cat: "OT", num: 31, ref: "삼상 16:7", text: "여호와께서 사무엘에게 이르시되 그의 용모와 키를 보지 말라 내가 이미 그를 버렸노라 내가 보는 것은 사람과 같지 아니하니 사람은 외모를 보거니와 나 여호와는 중심을 보느니라 하시더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 32, cat: "OT", num: 32, ref: "삼하 7:12~16", text: "네 수한이 차서 네 조상들과 함께 누울 때에 내가 네 몸에서 날 네 씨를 네 뒤에 세워 그의 나라를 견고하게 하리라 그는 내 이름을 위하여 집을 건축할 것이요 나는 그의 나라 왕위를 영원히 견고하게 하리라 나는 그에게 아버지가 되고 그는 내게 아들이 되리니 그가 만일 죄를 범하면 내가 사람의 매와 인생의 채찍으로 징계하려니와 내가 네 앞에서 물러나게 한 사울에게서 내 은총을 빼앗은 것처럼 그에게서 빼앗지는 아니하리라 네 집과 네 나라가 내 앞에서 영원히 보전되고 네 왕위가 영원히 견고하리라 하셨다 하라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 33, cat: "OT", num: 33, ref: "왕상 8:27", text: "하나님이 참으로 땅에 거하시리이까 하늘과 하늘들의 하늘이라도 주를 용납하지 못하겠거든 하물며 내가 건축한 이 성전이오리이까" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 34, cat: "OT", num: 34, ref: "왕하 2:11~14", text: "두 사람이 길을 가며 말하더니 불수레와 불말들이 두 사람을 갈라놓고 엘리야가 회오리 바람으로 하늘로 올라가더라 엘리사가 보고 소리 지르되 내 아버지여 내 아버지여 이스라엘의 병거와 그 마병이여 하더니 다시 보이지 아니하는지라 이에 엘리사가 자기의 옷을 잡아 둘로 찢고 엘리야의 몸에서 떨어진 겉옷을 주워 가지고 돌아와 요단 언덕에 서서 엘리야의 몸에서 떨어진 그의 겉옷을 가지고 물을 치며 이르되 엘리야의 하나님 여호와는 어디 계시니이까 하고 그도 물을 치매 물이 이리 저리 갈라지고 엘리사가 건너니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 35, cat: "OT", num: 35, ref: "대상 29:11~12", text: "여호와여 위대하심과 권능과 영광과 승리와 위엄이 다 주께 속하였사오니 천지에 있는 것이 다 주의 것이로소이다 여호와여 주권도 주께 속하였사오니 주는 높으사 만물의 머리이심이니이다 부와 귀가 주께로 말미암고 또 주는 만물의 주재가 되사 손에 권세와 능력이 있사오니 모든 사람을 크게 하심과 강하게 하심이 주의 손에 있나이다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 36, cat: "OT", num: 36, ref: "대하 14:11", text: "아사가 그의 하나님 여호와께 부르짖어 이르되 여호와여 힘이 강한 자와 약한 자 사이에는 주밖에 도와 줄 이가 없사오니 우리 하나님 여호와여 우리를 도우소서 우리가 주를 의지하오며 주의 이름을 의탁하옵고 이 많은 무리를 치러 왔나이다 여호와여 주는 우리 하나님이시오니 원하건대 사람이 주를 이기지 못하게 하옵소서 하였더니" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 37, cat: "OT", num: 37, ref: "스 7:10", text: "에스라가 여호와의 율법을 연구하여 준행하며 율례와 규례를 이스라엘에게 가르치기로 결심하였었더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 38, cat: "OT", num: 38, ref: "느 9:6", text: "오직 주는 여호와시라 하늘과 하늘들의 하늘과 일월 성신과 땅과 땅 위의 만물과 바다와 그 가운데 모든 것을 지으시고 다 보존하시오니 모든 천군이 주께 경배하나이다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 39, cat: "OT", num: 39, ref: "에 4:13~16", text: "모르드개가 그를 시켜 에스더에게 회답하되 너는 왕궁에 있으니 모든 유다인 중에 홀로 목숨을 건지리라 생각하지 말라 이 때에 네가 만일 잠잠하여 말이 없으면 유다인은 다른 데로 말미암아 놓임과 구원을 얻으려니와 너와 네 아버지 집은 멸망하리라 네가 왕후의 자리를 얻은 것이 이 때를 위함이 아닌지 누가 알겠느냐 하니 에스더가 모르드개에게 회답하여 이르되 당신은 가서 수산에 있는 유다인을 다 모으고 나를 위하여 금식하되 밤낮 삼 일을 먹지도 말고 마시지도 마소서 나도 나의 시녀와 더불어 이렇게 금식한 후에 규례를 어기고 왕에게 나아가리니 죽으면 죽으리이다 하니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 40, cat: "OT", num: 40, ref: "욥 1:20~22", text: "욥이 일어나 겉옷을 찢고 머리털을 밀고 땅에 엎드려 예배하며 이르되 내가 모태에서 알 몸으로 나왔사온즉 또한 알몸이 그리로 돌아가올지라 주신 이도 여호와시요 거두신 이도 여호와시오니 여호와의 이름이 찬송을 받으실지니이다 하고 이 모든 일에 욥이 범죄하지 아니하고 하나님을 향하여 원망하지 아니하니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 41, cat: "OT", num: 41, ref: "욥 23:10", text: "그러나 내가 가는 길을 그가 아시나니 그가 나를 단련하신 후에는 내가 순금 같이 되어 나오리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 42, cat: "OT", num: 42, ref: "시 1:1~3", text: "복 있는 사람은 악인들의 꾀를 따르지 아니하며 죄인들의 길에 서지 아니하며 오만한 자들의 자리에 앉지 아니하고 오직 여호와의 율법을 즐거워하여 그의 율법을 주야로 묵상하는도다 그는 시냇가에 심은 나무가 철을 따라 열매를 맺으며 그 잎사귀가 마르지 아니함 같으니 그가 하는 모든 일이 다 형통하리로다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 43, cat: "OT", num: 43, ref: "시 2:6", text: "내가 나의 왕을 내 거룩한 산 시온에 세웠다 하시리로다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 44, cat: "OT", num: 44, ref: "시 8:4~6", text: "사람이 무엇이기에 주께서 그를 생각하시며 인자가 무엇이기에 주께서 그를 돌보시나이까 그를 하나님보다 조금 못하게 하시고 영화와 존귀로 관을 씌우셨나이다 주의 손으로 만드신 것을 다스리게 하시고 만물을 그의 발 아래 두셨으니" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 45, cat: "OT", num: 45, ref: "시 12:6", text: "여호와의 말씀은 순결함이여 흙 도가니에 일곱 번 단련한 은 같도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 46, cat: "OT", num: 46, ref: "시 19:1~4", text: "하늘이 하나님의 영광을 선포하고 궁창이 그의 손으로 하신 일을 나타내는도다 날은 날에게 말하고 밤은 밤에게 지식을 전하니 언어도 없고 말씀도 없으며 들리는 소리도 없으나 그의 소리가 온 땅에 통하고 그의 말씀이 세상 끝까지 이르도다 하나님이 해를 위하여 하늘에 장막을 베푸셨도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 47, cat: "OT", num: 47, ref: "시 19:7~10", text: "여호와의 율법은 완전하여 영혼을 소성시키며 여호와의 증거는 확실하여 우둔한 자를 지혜롭게 하며 여호와의 교훈은 정직하여 마음을 기쁘게 하고 여호와의 계명은 순결하여 눈을 밝게 하시도다 여호를 경외하는 도는 정결하여 영원까지 이르고 여호와의 법도 진실하여 다 의로우니 금 곧 많은 순금보다 더 사모할 것이며 꿀과 송이꿀보다 더 달도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 48, cat: "OT", num: 48, ref: "시 23:1~6", text: "여호와는 나의 목자시니 내게 부족함이 없으리로다 그가 나를 푸른 풀밭에 누이시며 쉴 만한 물가로 인도하시는도다 내 영혼을 소생시키시고 자기 이름을 위하여 의의 길로 인도하시는도다 내가 사망의 음침한 골짜기로 다닐지라도 해를 두려워하지 않을 것은 주께서 나와 함께 하심이라 주의 지팡이와 막대기가 나를 안위하시나이다 주께서 내 원수의 목전에서 내게 상을 차려 주시고 기름을 내 머리에 부으셨으니 내 잔이 넘치나이다 내 평생에 선하심과 인자하심이 반드시 나를 따르리니 내가 여호와의 집에 영원히 살리로다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 49, cat: "OT", num: 49, ref: "시 33:11", text: "여호와의 계획은 영원히 서고 그의 생각은 대대에 이르리로다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 50, cat: "OT", num: 50, ref: "시 46:10", text: "이르시기를 너희는 가만히 있어 내가 하나님 됨을 알지어다 내가 뭇 나라 중에서 높임을 받으리라 내가 세계 중에서 높임을 받으리라 하시도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 51, cat: "OT", num: 51, ref: "시 51:10~12", text: "하나님이여 내 속에 정한 마음을 창조하시고 내 안에 정직한 영을 새롭게 하소서 나를 주 앞에서 쫓아내지 마시며 주의 성령을 내게서 거두지 마소서 주의 구원의 즐거움을 내게 회복시켜 주시고 자원하는 심령을 주사 나를 붙드소서" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 52, cat: "OT", num: 52, ref: "시 73:25~26", text: "하늘에서는 주 외에 누가 내게 있으리요 땅에서는 주 밖에 내가 사모할 이 없나이다 내 육체와 마음은 쇠약하나 하나님은 내 마음의 반석이시요 영원한 분깃이시라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 53, cat: "OT", num: 53, ref: "시 90:2", text: "산이 생기기 전, 땅과 세계도 주께서 조성하시기 전 곧 영원부터 영원까지 주는 하나님이시니이다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 54, cat: "OT", num: 54, ref: "시 95:5", text: "바다가 그의 것이라 그가 만드셨고 육지도 그의 손이 지으셨도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 55, cat: "OT", num: 55, ref: "시 110:4", text: "여호와는 맹세하고 변하지 아니하시리라 이르시기를 너는 멜기세덱의 서열을 따라 영원한 제사장이라 하셨도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 56, cat: "OT", num: 56, ref: "시 119:89", text: "여호와여 주의 말씀은 영원히 하늘에 굳게 섰사오며" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 57, cat: "OT", num: 57, ref: "시 119:105", text: "주의 말씀은 내 발에 등이요 내 길에 빛이니이다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 58, cat: "OT", num: 58, ref: "시 127:1~2", text: "여호와께서 집을 세우지 아니하시면 세우는 자의 수고가 헛되며 여호와께서 성을 지키지 아니하시면 파수꾼의 깨어 있음이 헛되도다 너희가 일찍이 일어나고 늦게 누우며 수고의 떡을 먹음이 헛되도다 그러므로 여호와께서 그의 사랑하시는 자에게는 잠을 주시는도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 59, cat: "OT", num: 59, ref: "시 139:14", text: "내가 주께 감사하옴은 나를 지으심이 심히 기묘하심이라 주께서 하시는 일이 기이함을 내 영혼이 잘 아나이다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 60, cat: "OT", num: 60, ref: "잠 1:7", text: "여호와를 경외하는 것이 지식의 근본이거늘 미련한 자는 지혜와 훈계를 멸시하느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 61, cat: "OT", num: 61, ref: "잠 3:6", text: "너는 범사에 그를 인정하라 그리하면 네 길을 지도하시리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 62, cat: "OT", num: 62, ref: "잠 16:9", text: "사람이 마음으로 자기의 길을 계획할지라도 그의 걸음을 인도하시는 이는 여호와시니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 63, cat: "OT", num: 63, ref: "잠 30:8", text: "곧 헛된 것과 거짓말을 내게서 멀리 하옵시며 나를 가난하게도 마옵시고 부하게도 마옵시고 오직 필요한 양식으로 나를 먹이시옵소서" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 64, cat: "OT", num: 64, ref: "전 3:14", text: "하나님께서 행하시는 모든 것은 영원히 있을 것이라 그 위에 더 할 수도 없고 그것에서 덜 할 수도 없나니 하나님이 이같이 행하심은 사람들이 그의 앞에서 경외하게 하려 하심인 줄을 내가 알았도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 65, cat: "OT", num: 65, ref: "전 12:1~2", text: "너는 청년의 때에 너의 창조주를 기억하라 곧 곤고한 날이 이르기 전에, 나는 아무 낙이 없다고 할 해들이 가깝기 전에 해와 빛과 달과 별들이 어둡기 전에, 비 뒤에 구름이 다시 일어나기 전에 그리하라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 66, cat: "OT", num: 66, ref: "전 12:13~14", text: "일의 결국을 다 들었으니 하나님을 경외하고 그의 명령들을 지킬지어다 이것이 모든 사람의 본분이니라 하나님은 모든 행위와 모든 은밀한 일을 선악 간에 심판하시리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 67, cat: "OT", num: 67, ref: "아 8:6~7", text: "너는 나를 도장 같이 마음에 품고 도장 같이 팔에 두라 사랑은 죽음 같이 강하고 질투는 스올 같이 잔인하며 불길 같이 일어나니 그 기세가 여호와의 불과 같으니라 많은 물도 이 사랑을 끄지 못하겠고 홍수라도 삼키지 못하나니 사람이 그의 온 가산을 다 주고 사랑과 바꾸려 할지라도 오히려 멸시를 받으리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 68, cat: "OT", num: 68, ref: "사 1:18", text: "여호와께서 말씀하시되 오라 우리가 서로 변론하자 너희의 죄가 주홍 같을지라도 눈과 같이 희어질 것이요 진홍 같이 붉을지라도 양털 같이 희게 되리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 69, cat: "OT", num: 69, ref: "사 6:1~3", text: "웃시야 왕이 죽던 해에 내가 본즉 주께서 높이 들린 보좌에 앉으셨는데 그의 옷자락은 성전에 가득하였고 스랍들이 모시고 섰는데 각기 여섯 날개가 있어 그 둘로는 자기의 얼굴을 가리었고 그 둘로는 자기의 발을 가리었고 그 둘로는 날며 서로 불러 이르되 거룩하다 거룩하다 거룩하다 만군의 여호와여 그의 영광이 온 땅에 충만하도다 하더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 70, cat: "OT", num: 70, ref: "사 7:14", text: "그러므로 주께서 친히 징조를 너희에게 주실 것이라 보라 처녀가 잉태하여 아들을 낳을 것이요 그의 이름을 임마누엘이라 하리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 71, cat: "OT", num: 71, ref: "사 9:6", text: "이는 한 아기가 우리에게 났고 한 아들을 우리에게 주신 바 되었는데 그의 어깨에는 정사를 메었고 그의 이름은 기묘자라, 모사라, 전능하신 하나님이라, 영존하시는 아버지라, 평강의 왕이라 할 것임이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 72, cat: "OT", num: 72, ref: "사 40:3", text: "외치는 자의 소리여 이르되 너희는 광야에서 여호와의 길을 예비하라 사막에서 우리 하나님의 대로를 평탄하게 하라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 73, cat: "OT", num: 73, ref: "사 40:8", text: "풀은 마르고 꽃은 시드나 우리 하나님의 말씀은 영원히 서리라 하라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 74, cat: "OT", num: 74, ref: "사 40:28~31", text: "너는 알지 못하였느냐 듣지 못하였느냐 영원하신 하나님 여호와, 땅 끝까지 창조하신 이는 피곤하지 않으시며 곤비하지 않으시며 명철이 한이 없으시며 피곤한 자에게는 능력을 주시며 무능한 자에게는 힘을 더하시나니 소년이라도 피곤하며 곤비하며 장정이라도 넘어지며 쓰러지되 오직 여호와를 앙망하는 자는 새 힘을 얻으리니 독수리가 날개치며 올라감 같을 것이요 달음박질하여도 곤비하지 아니하겠고 걸어가도 피곤하지 아니하리로다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 75, cat: "OT", num: 75, ref: "사 43:1", text: "야곱아 너를 창조하신 여호와께서 지금 말씀하시느니라 이스라엘아 너를 지으신 이가 말씀하시느니라 너는 두려워하지 말라 내가 너를 구속하였고 내가 너를 지명하여 불렀나니 너는 내 것이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 76, cat: "OT", num: 76, ref: "사 43:21", text: "이 백성은 내가 나를 위하여 지었나니 나를 찬송하게 하려 함이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 77, cat: "OT", num: 77, ref: "사 45:5~7", text: "나는 여호와라 나 외에 다른 이가 없나니 나 밖에 신이 없느니라 너는 나를 알지 못하였을지라도 나는 네 띠를 동일 것이요 해 뜨는 곳에서든지 지는 곳에서든지 나 밖에 다른 이가 없는 줄을 알게 하리라 나는 여호와라 다른 이가 없느니라 나는 빛도 짓고 어둠도 창조하며 나는 평안도 짓고 환난도 창조하나니 나는 여호와라 이 모든 일들을 행하는 자니라 하였노라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 78, cat: "OT", num: 78, ref: "사 46:9", text: "너희는 옛적 일을 기억하라 나는 하나님이라 나 외에 다른 이가 없느니라 나는 하나님이라 나 같은 이가 없느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 79, cat: "OT", num: 79, ref: "사 48:11", text: "나는 나를 위하며 나를 위하여 이를 이룰 것이라 어찌 내 이름을 욕되게 하리요 내 영광을 다른 자에게 주지 아니하리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 80, cat: "OT", num: 80, ref: "사 53:4~6", text: "그는 실로 우리의 질고를 지고 우리의 슬픔을 당하였거늘 우리는 생각하기를 그는 징벌을 받아 하나님께 맞으며 고난을 당한다 하였노라 그가 찔림은 우리의 허물 때문이요 그가 상함은 우리의 죄악 때문이라 그가 징계를 받으므로 우리는 평화를 누리고 그가 채찍에 맞으므로 우리는 나음을 받았도다 우리는 다 양 같아서 그릇 행하여 각기 제 길로 갔거늘 여호와께서는 우리 모두의 죄악을 그에게 담당시키셨도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 81, cat: "OT", num: 81, ref: "사 55:11", text: "내 입에서 나가는 말도 이와 같이 헛되이 내게로 되돌아오지 아니하고 나의 기뻐하는 뜻을 이루며 내가 보낸 일에 형통함이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 82, cat: "OT", num: 82, ref: "사 64:8", text: "그러나 여호와여 주는 우리 아버지시니이다 우리는 진흙이요 주는 토기장이시니 우리는 다 주의 손으로 지으신 것이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 83, cat: "OT", num: 83, ref: "렘 9:23~24", text: "여호와께서 이와 같이 말씀하시되 지혜로운 자는 그의 지혜를 자랑하지 말라 용사는 그의 용맹을 자랑하지 말라 부자는 그의 부함을 자랑하지 말라 자랑하는 자는 이것으로 자랑할지니 곧 명철하여 나를 아는 것과 나 여호와는 사랑과 정의와 공의를 땅에 행하는 자인 줄 깨닫는 것이라 나는 이 일을 기뻐하노라 여호와의 말씀이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 84, cat: "OT", num: 84, ref: "렘 17:9", text: "만물보다 거짓되고 심히 부패한 것은 마음이라 누가 능히 이를 알리요마는" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 85, cat: "OT", num: 85, ref: "렘 20:9", text: "내가 다시는 여호와를 선포하지 아니하며 그의 이름으로 말하지 아니하리라 하면 나의 마음이 불붙는 것 같아서 골수에 사무치니 답답하여 견딜 수 없나이다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 86, cat: "OT", num: 86, ref: "렘 31:31~34", text: "여호와의 말씀이니라 보라 날이 이르리니 내가 이스라엘 집과 유다 집에 새 언약을 맺으리라 이 언약은 내가 그들의 조상들의 손을 잡고 애굽 땅에서 인도하여 내던 날에 맺은 것과 같지 아니할 것은 내가 그들의 남편이 되었어도 그들이 내 언약을 깨뜨렸음이라 여호와의 말씀이니라 그러나 그 날 후에 내가 이스라엘 집과 맺을 언약은 이러하니 곧 내가 나의 법을 그들의 속에 두며 그들의 마음에 기록하여 나는 그들의 하나님이 되고 그들은 내 백성이 될 것이라 여호와의 말씀이니라 그들이 다시는 각기 이웃과 형제를 가리켜 이르기를 너는 여호와를 알라 하지 아니하리니 이는 작은 자로부터 큰 자까지 다 나를 알기 때문이라 내가 그들의 악행을 사하고 다시는 그 죄를 기억하지 아니하리라 여호와의 말씀이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 87, cat: "OT", num: 87, ref: "겔 1:3", text: "갈대아 땅 그발 강 가에서 여호와의 말씀이 부시의 아들 제사장 나 에스겔에게 특별히 임하고 여호와의 권능이 내 위에 있으니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 88, cat: "OT", num: 88, ref: "겔 11:19~20", text: "내가 그들에게 한 마음을 주고 그 속에 새 영을 주며 그 몸에서 돌 같은 마음을 제거하고 살처럼 부드러운 마음을 주어 내 율례를 따르며 내 규례를 지켜 행하게 하리니 그들은 내 백성이 되고 나는 그들의 하나님이 되리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 89, cat: "OT", num: 89, ref: "겔 36:26~27", text: "또 새 영을 너희 속에 두고 새 마음을 너희에게 주되 너희 육신에서 굳은 마음을 제거하고 부드러운 마음을 줄 것이며 또 내 영을 너희 속에 두어 너희로 내 율례를 행하게 하리니 너희가 내 규례를 지켜 행할지라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 90, cat: "OT", num: 90, ref: "단 1:6~8", text: "그들 가운데는 유다 자손 곧 다니엘과 하나냐와 미사엘과 아사랴가 있었더니 환관장이 그들의 이름을 고쳐 다니엘은 벨드사살이라 하고 하나냐는 사드락이라 하고 미사엘은 메삭이라 하고 아사랴는 아벳느고라 하였더라 다니엘은 뜻을 정하여 왕의 음식과 그가 마시는 포도주로 자기를 더럽히지 아니하리라 하고 자기를 더럽히지 아니하도록 환관장에게 구하니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 91, cat: "OT", num: 91, ref: "호 6:6", text: "나는 인애를 원하고 제사를 원하지 아니하며 번제보다 하나님을 아는 것을 원하노라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 92, cat: "OT", num: 92, ref: "욜 2:28", text: "그 후에 내가 내 영을 만민에게 부어 주리니 너희 자녀들이 장래 일을 말할 것이며 너희 늙은이는 꿈을 꾸며 너희 젊은이는 이상을 볼 것이며" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 93, cat: "OT", num: 93, ref: "암 1:1", text: "유다 왕 웃시야의 시대 곧 이스라엘 왕 요아스의 아들 여로보암의 시대 지진 전 이년에 드고아 목자 중 아모스가 이스라엘에 대하여 이상으로 받은 말씀이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 94, cat: "OT", num: 94, ref: "암 5:24", text: "오직 정의를 물 같이, 공의를 마르지 않는 강 같이 흐르게 할지어다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 95, cat: "OT", num: 95, ref: "옵 1:15", text: "여호와께서 만국을 벌할 날이 가까웠나니 네가 행한 대로 너도 받을 것인즉 네가 행한 것이 네 머리로 돌아갈 것이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 96, cat: "OT", num: 96, ref: "옵 1:21", text: "구원 받은 자들이 시온 산에 올라와서 에서의 산을 심판하리니 나라가 여호와께 속하리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 97, cat: "OT", num: 97, ref: "욘 1:1~3", text: "여호와의 말씀이 아밋대의 아들 요나에게 임하니라 이르시되 너는 일어나 저 큰 성읍 니느웨로 가서 그것을 향하여 외치라 그 악독이 내 앞에 상달되었음이니라 하시니라 그러나 요나가 여호와의 얼굴을 피하려고 일어나 다시스로 도망하려 하여 욥바로 내려갔더니 마침 다시스로 가는 배를 만난지라 여호와의 얼굴을 피하여 그들과 함께 다시스로 가려고 배삯을 주고 배에 올랐더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 98, cat: "OT", num: 98, ref: "욘 4:10~11", text: "여호와께서 이르시되 네가 수고도 아니하였고 재배도 아니하였고 하룻밤에 났다가 하룻밤에 말라 버린 이 박넝쿨을 아꼈거든 하물며 이 큰 성읍 니느웨에는 좌우를 분변하지 못하는 자가 십이만여 명이요 가축도 많이 있나니 내가 어찌 아끼지 아니하겠느냐 하시니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 99, cat: "OT", num: 99, ref: "미 5:2", text: "베들레헴 에브라다야 너는 유다 족속 중에 작을지라도 이스라엘을 다스릴 자가 네게서 내게로 나올 것이라 그의 근본은 상고에, 영원에 있느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 100, cat: "OT", num: 100, ref: "미 6:8", text: "사람아 주께서 선한 것이 무엇임을 네게 보이셨나니 여호와께서 네게 구하시는 것은 오직 정의를 행하며 인자를 사랑하며 겸손하게 네 하나님과 함께 행하는 것이 아니냐" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 101, cat: "OT", num: 101, ref: "나 1:1~3", text: "니느웨에 대한 경고 곧 엘고스 사람 나훔의 묵시의 글이라 여호와는 질투하시며 보복하시는 하나님이시니라 여호와는 보복하시며 진노하시되 자기를 거스르는 자에게 여호와는 보복하시며 자기를 대적하는 자에게 진노를 품으시며 여호와는 노하기를 더디하시며 권능이 크시며 벌 받을 자를 결코 내버려두지 아니하시느니라 여호와의 길은 회오리바람과 광풍에 있고 구름은 그의 발의 티끌이로다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 102, cat: "OT", num: 102, ref: "나 1:7", text: "여호와는 선하시며 환난 날에 산성이시라 그는 자기에게 피하는 자들을 아시느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 103, cat: "OT", num: 103, ref: "합 2:4", text: "보라 그의 마음은 교만하며 그 속에서 정직하지 못하나 의인은 그의 믿음으로 말미암아 살리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 104, cat: "OT", num: 104, ref: "합 3:17~19", text: "비록 무화과나무가 무성하지 못하며 포도나무에 열매가 없으며 감람나무에 소출이 없으며 밭에 먹을 것이 없으며 우리에 양이 없으며 외양간에 소가 없을지라도 나는 여호와로 말미암아 즐거워하며 나의 구원의 하나님으로 말미암아 기뻐하리로다 주 여호와는 나의 힘이시라 나의 발을 사슴과 같게 하사 나를 나의 높은 곳으로 다니게 하시리로다 이 노래는 지휘하는 사람을 위하여 내 수금에 맞춘 것이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 105, cat: "OT", num: 105, ref: "습 3:17", text: "너의 하나님 여호와가 너의 가운데에 계시니 그는 구원을 베푸실 전능자이시라 그가 너로 말미암아 기쁨을 이기지 못하시며 너를 잠잠히 사랑하시며 너로 말미암아 즐거이 부르며 기뻐하시리라 하리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 106, cat: "OT", num: 106, ref: "학 2:9", text: "이 성전의 나중 영광이 이전 영광보다 크리라 만군의 여호와의 말이니라 내가 이 곳에 평강을 주리라 만군의 여호와의 말이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 107, cat: "OT", num: 107, ref: "슥 9:9~10", text: "시온의 딸아 크게 기뻐할지어다 예루살렘의 딸아 즐거이 부를지어다 보라 네 왕이 네게 임하시나니 그는 공의로우시며 구원을 베푸시며 겸손하여서 나귀를 타시나니 나귀의 작은 것 곧 나귀 새끼니라 내가 에브라임의 병거와 예루살렘의 말을 끊겠고 전쟁하는 활도 끊으리니 그가 이방 사람에게 화평을 전할 것이요 그의 통치는 바다에서 바다까지 이르고 유브라데 강에서 땅 끝까지 이르리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 108, cat: "OT", num: 108, ref: "슥 13:1", text: "그 날에 죄와 더러움을 씻는 샘이 다윗의 족속과 예루살렘 주민을 위하여 열리리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 109, cat: "OT", num: 109, ref: "말 1:1~3", text: "여호와께서 말라기를 통하여 이스라엘에게 말씀하신 경고라 여호와께서 이르시되 내가 너희를 사랑하였노라 하나 너희는 이르기를 주께서 어떻게 우리를 사랑하셨나이까 하는도다 나 여호와가 말하노라 에서는 야곱의 형이 아니냐 그러나 내가 야곱을 사랑하였고 에서는 미워하였으며 그의 산들을 황폐하게 하였고 그의 산업을 광야의 이리들에게 넘겼느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 110, cat: "OT", num: 110, ref: "말 3:5~10", text: "내가 심판하러 너희에게 임할 것이라 점치는 자에게와 간음하는 자에게와 거짓 맹세하는 자에게와 품꾼의 삯에 대하여 억울하게 하며 과부와 고아를 압제하며 나그네를 억울하게 하며 나를 경외하지 아니하는 자들에게 속히 증언하리라 만군의 여호와가 말하였느니라 나 여호와는 변하지 아니하나니 그러므로 야곱의 자손들아 너희가 소멸되지 아니하느니라 만군의 여호와가 이르노라 너희 조상들의 날로부터 너희가 나의 규례를 떠나 지키지 아니하였도다 그런즉 내게로 돌아오라 그리하면 나도 너희에게로 돌아가리라 하였더니 너희가 이르기를 우리가 어떻게 하여야 돌아가리이까 하는도다 사람이 어찌 하나님의 것을 도둑질하겠느냐 그러나 너희는 나의 것을 도둑질하고도 말하기를 우리가 어떻게 주의 것을 도둑질하였나이까 하는도다 이는 곧 십일조와 봉헌물이라 너희 곧 온 나라가 나의 것을 도둑질하였으므로 너희가 저주를 받았느니라 만군의 여호와가 이르노라 너희의 온전한 십일조를 창고에 들여 나의 집에 양식이 있게 하고 그것으로 나를 시험하여 내가 하늘 문을 열고 너희에게 복을 쌓을 곳이 없도록 붓지 아니하나 보라" },</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 신약 110선</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 111, cat: "NT", num: 1, ref: "마 1:21", text: "아들을 낳으리니 이름을 예수라 하라 이는 그가 자기 백성을 그들의 죄에서 구원할 자이심이라 하니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 112, cat: "NT", num: 2, ref: "마 4:4", text: "예수께서 대답하여 이르시되 기록되었으되 사람이 떡으로만 살 것이 아니요 하나님의 입으로부터 나오는 모든 말씀으로 살 것이라 하였느니라 하시니" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 113, cat: "NT", num: 3, ref: "마 5:1~12", text: "예수께서 무리를 보시고 산에 올라가 앉으시니 제자들이 나아온지라 입을 열어 가르쳐 이르시되 심령이 가난한 자는 복이 있나니 천국이 그들의 것임이요 애통하는 자는 복이 있나니 그들이 위로를 받을 것임이요 온유한 자는 복이 있나니 그들이 땅을 기업으로 받을 것임이요 의에 주리고 목마른 자는 복이 있나니 그들이 배부를 것임이요 긍휼히 여기는 자는 복이 있나니 그들이 긍휼히 여김을 받을 것임이요 마음이 청결한 자는 복이 있나니 그들이 하나님을 볼 것임이요 화평하게 하는 자는 복이 있나니 그들이 하나님의 아들이라 일컬음을 받을 것임이요 의를 위하여 박해를 받은 자는 복이 있나니 천국이 그들의 것임이라 나로 말미암아 너희를 욕하고 박해하고 거짓으로 너희를 거슬러 모든 악한 말을 할 때에는 너희에게 복이 있나니 기뻐하고 즐거워하라 하늘에서 너희의 상이 큼이라 너희 전에 있던 선지자들도 이같이 박해하였느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 114, cat: "NT", num: 4, ref: "마 5:16", text: "이같이 너희 빛이 사람 앞에 비치게 하여 그들로 너희 착한 행실을 보고 하늘에 계신 너희 아버지께 영광을 돌리게 하라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 115, cat: "NT", num: 5, ref: "마 6:31~34", text: "그러므로 염려하여 이르기를 무엇을 먹을까 무엇을 마실까 무엇을 입을까 하지 말라 이는 다 이방인들이 구하는 것이라 너희 하늘 아버지께서 이 모든 것이 너희에게 있어야 할 줄을 아시느니라 그런즉 너희는 먼저 그의 나라와 그의 의를 구하라 그리하면 이 모든 것을 너희에게 더하시리라 그러므로 내일 일을 위하여 염려하지 말라 내일 일은 내일이 염려할 것이요 한 날의 괴로움은 그 날로 족하니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 116, cat: "NT", num: 6, ref: "마 7:7~11", text: "구하라 그리하면 너희에게 주실 것이요 찾으라 그리하면 찾아낼 것이요 문을 두드리라 그리하면 너희에게 열릴 것이니 구하는 이마다 받을 것이요 찾는 이는 찾아낼 것이요 두드리는 이에게는 열릴 것이니라 너희 중에 누가 아들이 떡을 달라 하는데 돌을 주며 생선을 달라 하는데 뱀을 줄 사람이 있겠느냐 너희가 악한 자라도 좋은 것으로 자식에게 줄 줄 알거든 하물며 하늘에 계신 너희 아버지께서 구하는 자에게 좋은 것으로 주시지 않겠느냐" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 117, cat: "NT", num: 7, ref: "마 16:4", text: "악하고 음란한 세대가 표적을 구하나 요나의 표적 밖에는 보여 줄 표적이 없느니라 하시고 그들을 떠나 가시니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 118, cat: "NT", num: 8, ref: "마 16:13~20", text: "예수께서 빌립보 가이사랴 지방에 이르러 제자들에게 물어 이르시되 사람들이 인자를 누구라 하느냐 이르되 더러는 세례 요한, 더러는 엘리야, 어떤 이는 예레미야나 선지자 중의 하나라 하나이다 이르시되 너희는 나를 누구라 하느냐 시몬 베드로가 대답하여 이르되 주는 그리스도시요 살아 계신 하나님의 아들이시니이다 예수께서 대답하여 이르시되 바요나 시몬아 네가 복이 있도다 이를 네게 알게 한 이는 혈육이 아니요 하늘에 계신 내 아버지시니라 또 내가 네게 이르노니 너는 베드로라 내가 이 반석 위에 내 교회를 세우리니 음부의 권세가 이기지 못하리라 내가 천국 열쇠를 네게 주리니 네가 땅에서 무엇이든지 매면 하늘에서도 매일 것이요 네가 땅에서 무엇이든지 풀면 하늘에서도 풀리리라 하시고 이에 제자들에게 경고하사 자기가 그리스도인 것을 아무에게도 이르지 말라 하시니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 119, cat: "NT", num: 9, ref: "마 20:25~28", text: "예수께서 제자들을 불러다가 이르시되 이방인의 집권자들이 그들을 임의로 주관하고 그 고관들이 그들에게 권세를 부리는 줄을 너희가 알거니와 너희 중에는 그렇지 않아야 하나니 너희 중에 누구든지 크고자 하는 자는 너희를 섬기는 자가 되고 너희 중에 누구든지 으뜸이 되고자 하는 자는 너희의 종이 되어야 하리라 인자가 온 것은 섬김을 받으려 함이 아니라 도리어 섬기려 하고 자기 목숨을 많은 사람의 대속물로 주려 함이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 120, cat: "NT", num: 10, ref: "마 28:18~20", text: "예수께서 나아와 말씀하여 이르시되 하늘과 땅의 모든 권세를 내게 주셨으니 그러므로 너희는 가서 모든 민족을 제자로 삼아 아버지와 아들과 성령의 이름으로 세례를 베풀고 내가 너희에게 분부한 모든 것을 가르쳐 지키게 하라 볼지어다 내가 세상 끝날까지 너희와 항상 함께 있으리라 하시니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 121, cat: "NT", num: 11, ref: "막 1:6~8", text: "요한은 낙타털 옷을 입고 허리에 가죽 띠를 띠고 메뚜기와 석청을 먹더라 그가 전파하여 이르되 나보다 능력 많으신 이가 내 뒤에 오시나니 나는 굽혀 그의 신발끈을 풀기도 감당하지 못하겠노라 나는 너희에게 물로 세례를 베풀었거니와 그는 너희에게 성령으로 세례를 베푸시리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 122, cat: "NT", num: 12, ref: "막 8:34", text: "무리와 제자들을 불러 이르시되 누구든지 나를 따라오려거든 자기를 부인하고 자기 십자가를 지고 나를 따를 것이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 123, cat: "NT", num: 13, ref: "막 10:13~16", text: "사람들이 예수께서 만져 주심을 바라고 어린 아이들을 데리고 오매 제자들이 꾸짖거늘 예수께서 보시고 노하시어 이르시되 어린 아이들이 내게 오는 것을 용납하고 금하지 말라 하나님의 나라가 이런 자의 것이니라 내가 진실로 너희에게 이르노니 누구든지 하나님의 나라를 어린 아이와 같이 받들지 않는 자는 결단코 그 곳에 들어가지 못하리라 하시고 그 어린 아이들을 안고 그들 위에 안수하시고 축복하시니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 124, cat: "NT", num: 14, ref: "막 14:72", text: "닭이 곧 두 번째 울더라 이에 베드로가 예수께서 자기에게 하신 말씀 곧 닭이 두 번 울기 전에 네가 세 번 나를 부인하리라 하심이 기억되어 그 일을 생각하고 울었더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 125, cat: "NT", num: 15, ref: "눅 1:37", text: "대저 하나님의 모든 말씀은 능하지 못하심이 없느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 126, cat: "NT", num: 16, ref: "눅 4:18~19", text: "주의 성령이 내게 임하셨으니 이는 가난한 자에게 복음을 전하게 하시려고 내게 기름을 부으시고 나를 보내사 포로 된 자에게 자유를, 눈 먼 자에게 다시 보게 함을 전파하며 눌린 자를 자유롭게 하고 주의 은혜의 해를 전파하게 하려 하심이라 하였더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 127, cat: "NT", num: 17, ref: "눅 16:13", text: "집 하인이 두 주인을 섬길 수 없나니 혹 이를 미워하고 저를 사랑하거나 혹 이를 중히 여기고 저를 경히 여길 것임이니라 너희는 하나님과 재물을 겸하여 섬길 수 없느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 128, cat: "NT", num: 18, ref: "요 1:1~3", text: "태초에 말씀이 계시니라 이 말씀이 하나님과 함께 계셨으니 이 말씀은 곧 하나님이시니라 그가 태초에 하나님과 함께 계셨고 만물이 그로 말미암아 지은 바 되었으니 지은 것이 하나도 그가 없이는 된 것이 없느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 129, cat: "NT", num: 19, ref: "요 1:14", text: "말씀이 육신이 되어 우리 가운데 거하시매 우리가 그의 영광을 보니 아버지의 독생자의 영광이요 은혜와 진리가 충만하더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 130, cat: "NT", num: 20, ref: "요 2:23~25", text: "유월절에 예수께서 예루살렘에 계시니 많은 사람이 그의 행하시는 표적을 보고 그의 이름을 믿었으나 예수는 그의 몸을 그들에게 의탁하지 아니하셨으니 이는 친히 모든 사람을 아심이요 또 사람에 대하여 누구의 증언도 받실 필요가 없었으니 이는 그가 친히 사람의 속에 있는 것을 아셨음이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 131, cat: "NT", num: 21, ref: "요 5:39", text: "너희가 성경에서 영생을 얻는 줄 생각하고 성경을 연구하거니와 이 성경이 곧 내게 대하여 증언하는 것이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 132, cat: "NT", num: 22, ref: "요 6:37~40", text: "아버지께서 내게 주시는 자는 다 내게로 올 것이요 내게 오는 자는 내가 결코 내쫓지 아니하리라 내가 하늘에서 내려온 것은 내 뜻을 행하려 함이 아니요 나를 보내신 이의 뜻을 행하려 함이니라 나를 보내신 이의 뜻은 내게 주신 자 중에 내가 하나도 잃어버리지 아니하고 마지막 날에 다시 살리는 이것이니라 내 아버지의 뜻은 아들을 보고 믿는 자마다 영생을 얻는 이것이니 마지막 날에 내가 이를 다시 살리리라 하시니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 133, cat: "NT", num: 23, ref: "요 6:44", text: "나를 보내신 아버지께서 이끌지 아니하시면 아무도 내게 올 수 없으니 오는 그를 내가 마지막 날에 다시 살리리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 134, cat: "NT", num: 24, ref: "요 8:58", text: "예수께서 이르시되 진실로 진실로 너희에게 이르노니 아브라함이 나기 전부터 내가 있느니라 하시니" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 135, cat: "NT", num: 25, ref: "요 10:27~29", text: "내 양은 내 음성을 들으며 나는 그들을 알며 그들은 나를 따르느니라 내가 그들에게 영생을 주노니 영원히 멸망하지 아니할 것이요 또 그들을 내 손에서 빼앗을 자가 없느니라 그들을 주신 내 아버지는 만물보다 크시매 아무도 아버지 손에서 빼앗을 수 없느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 136, cat: "NT", num: 26, ref: "요 10:30", text: "나와 아버지는 하나이니라 하신대" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 137, cat: "NT", num: 27, ref: "요 12:24", text: "내가 진실로 진실로 너희에게 이르노니 한 알의 밀이 땅에 떨어져 죽지 아니하면 한 알 그대로 있고 죽으면 많은 열매를 맺느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 138, cat: "NT", num: 28, ref: "요 14:6", text: "예수께서 이르시되 내가 곧 길이요 진리요 생명이니 나로 말미암지 않고는 아버지께로 올 자가 없느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 139, cat: "NT", num: 29, ref: "요 15:5", text: "나는 포도나무요 너희는 가지라 그가 내 안에, 내가 그 안에 거하면 사람이 열매를 많이 맺나니 나를 떠나서는 너희가 아무 것도 할 수 없음이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 140, cat: "NT", num: 30, ref: "요 15:26", text: "내가 아버지께로부터 너희에게 보낼 보혜사 곧 아버지께로부터 나오시는 진리의 성령이 오실 때에 그가 나를 증언하실 것이요" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 141, cat: "NT", num: 31, ref: "요 18:1~6", text: "예수께서 이 말씀을 하시고 제자들과 함께 기드론 시내 건너편으로 나가시니 그 곳에 동산이 있는데 제자들과 함께 들어가시니라 그 곳은 가끔 예수께서 제자들과 모이시는 곳이므로 예수를 파는 유다도 그 곳을 알더라 유다가 군대와 대제사장들과 바리새인들에게서 얻은 아랫사람들을 데리고 등과 횃불과 무기를 가지고 그리로 오는지라 예수께서 그 당할 일을 다 아시고 나아가 이르시되 너희가 누구를 찾느냐 대답하되 나사렛 예수라 하거늘 이르시되 내가 그니라 하시니라 그를 파는 유다도 그들과 함께 섰더라 예수께서 그들에게 내가 그니라 하실 때에 그들이 물러가서 땅에 엎드러지는지라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 142, cat: "NT", num: 32, ref: "요 20:28", text: "도마가 대답하여 이르되 나의 주님이시요 나의 하나님이시니이다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 143, cat: "NT", num: 33, ref: "요 20:30~31", text: "예수께서 제자들 앞에서 이 책에 기록되지 아니한 다른 표적도 많이 행하셨으나 오직 이것을 기록함은 너희로 예수께서 하나님의 아들 그리스도이심을 믿게 하려 함이요 또 너희로 믿고 그 이름을 힘입어 생명을 얻게 하려 함이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 144, cat: "NT", num: 34, ref: "행 1:8", text: "오직 성령이 너희에게 임하시면 너희가 권능을 받고 예루살렘과 온 유대와 사마리아와 땅 끝까지 이르러 내 증인이 되리라 하시니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 145, cat: "NT", num: 35, ref: "행 1:11", text: "이르되 갈릴리 사람들아 어찌하여 서서 하늘을 쳐다보느냐 너희 가운데서 하늘로 올려지신 이 예수는 하늘로 가심을 본 그대로 오시리라 하였느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 146, cat: "NT", num: 36, ref: "행 1:21~26", text: "이러하므로 요한의 세례로부터 우리 가운데서 올려져 가신 날까지 주 예수께서 우리 가운데 출입하실 때에 항상 우리와 함께 다니던 사람 중에 하나를 세워 우리와 더불어 예수께서 부활하심을 증언할 사람이 되게 하여야 하리라 하거늘 그들이 두 사람을 내세우니 하나는 바사바라고도 하고 별명은 유스도라고 하는 요셉이요 하나는 맛디아라 그들이 기도하여 이르되 뭇 사람의 마음을 아시는 주여 이 두 사람 중에 누가 주님께 택하신 바 되어 봉사와 및 사도의 직무를 대신할 자인지를 보이시옵소서 유다는 이 직무를 버리고 제 곳으로 갔나이다 하고 제비 뽑아 맛디아를 얻으니 그가 열한 사도의 수에 들어가니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 147, cat: "NT", num: 37, ref: "행 2:1~4", text: "오순절 날이 이미 이르매 그들이 다같이 한 곳에 모였더니 홀연히 하늘로부터 급하고 강한 바람 같은 소리가 있어 그들이 앉은 온 집에 가득하며 마치 불의 혀처럼 갈라지는 것들이 그들에게 보여 각 사람 위에 하나씩 임하여 있더니 그들이 다 성령의 충만함을 받고 성령이 말하게 하심을 따라 다른 언어들로 말하기를 시작하니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 148, cat: "NT", num: 38, ref: "행 4:12", text: "다른 이로써는 구원을 받을 수 없나니 천하 사람 중에 구원을 받을 만한 다른 이름을 우리에게 주신 일이 없음이라 하였더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 149, cat: "NT", num: 39, ref: "행 4:32", text: "믿는 무리가 한마음과 한 뜻이 되어 모든 물건을 서로 통용하고 자기 재물을 조금이라도 자기 것이라 하는 이가 하나도 없더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 150, cat: "NT", num: 40, ref: "행 6:1~6", text: "그 때에 제자가 더 많아졌는데 헬라파 유대인들이 자기의 과부들이 매일의 구제에 빠지므로 히브리파 사람을 원망하니 열두 사도가 모든 제자를 불러 이르되 우리가 하나님의 말씀을 제쳐 놓고 접대를 일삼는 것이 마땅하지 아니하니 형제들아 너희 가운데서 성령과 지혜가 충만하여 칭찬 받는 사람 일곱을 택하라 우리가 이 일을 그들에게 맡기고 우리는 오로지 기도하는 일과 말씀 사역에 힘쓰리라 하니 온 무리가 이 말을 기뻐하여 믿음과 성령이 충만한 사람 스데반과 또 빌립과 브로고로와 니가노르와 디몬과 바메나와 유대교에 입교했던 안디옥 사람 니골라를 택하여 사도들 앞에 세우니 사도들이 기도하고 그들에게 안수하니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 151, cat: "NT", num: 41, ref: "행 13:48", text: "이방인들이 듣고 기뻐하여 하나님의 말씀을 찬송하며 영생을 주시기로 작정된 자는 다 믿더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 152, cat: "NT", num: 42, ref: "롬 1:16~17", text: "내가 복음을 부끄러워하지 아니하노니 이 복음은 모든 믿는 자에게 구원을 주시는 하나님의 능력이 됨이라 먼저는 유대인에게요 그리고 헬라인에게로다 복음에는 하나님의 의가 나타나서 믿음으로 믿음에 이르게 하나니 기록된 바 오직 의인은 믿음으로 말미암아 살리라 함과 같으니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 153, cat: "NT", num: 43, ref: "롬 3:23~24", text: "모든 사람이 죄를 범하였으매 하나님의 영광에 이르지 못하더니 그리스도 예수 안에 있는 속량으로 말미암아 하나님의 은혜로 값 없이 의롭다 하심을 얻은 자 되었느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 154, cat: "NT", num: 44, ref: "롬 4:3~8", text: "성경이 무엇을 말하느냐 아브라함이 하나님을 믿으매 그것이 그에게 의로 여겨진 바 되었느니라 일하는 자에게는 그 삯이 은혜로 여겨지지 아니하고 보수로 여겨지거니와 일을 아니할지라도 경건하지 아니한 자를 의롭다 하시는 이를 믿는 자에게는 그의 믿음을 의로 여기시나니 일한 것이 없이 하나님께 의로 여기심을 받는 사람의 복에 대하여 다윗이 말한 바 불법이 사함을 받고 죄가 가리어짐을 받는 사람들은 복이 있고 주께서 그 죄를 인정하지 아니하실 사람은 복이 있도다 함과 같으니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 155, cat: "NT", num: 45, ref: "롬 5:8", text: "우리가 아직 죄인 되었을 때에 그리스도께서 우리를 위하여 죽으심으로 하나님께서 우리에 대한 자기의 사랑을 확증하셨느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 156, cat: "NT", num: 46, ref: "롬 6:8~11", text: "만일 우리가 그리스도과 함께 죽었으면 또한 그와 함께 살 줄을 믿노니 이는 그리스도께서 죽은 자 가운데서 살아나셨으매 다시 죽지 아니하시고 사망이 다시 그를 주장하지 못할 줄을 앎이로라 그가 죽으심은 죄에 대하여 단번에 죽으심이요 그가 살아 계심은 하나님께 대하여 살아 계심이니 이와 같이 너희도 너희 자신을 죄에 대하여는 죽은 자요 그리스도 예수 안에서 하나님께 대하여는 살아 있는 자로 여길지어다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 157, cat: "NT", num: 47, ref: "롬 8:1~2", text: "그러므로 이제 그리스도 예수 안에 있는 자에게는 결코 정죄함이 없나니 이는 그리스도 예수 안에 있는 생명의 성령의 법이 죄와 사망의 법에서 너를 해방하였음이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 158, cat: "NT", num: 48, ref: "롬 8:18", text: "생각하건대 현재의 고난은 장차 우리에게 나타날 영광과 비교할 수 없도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 159, cat: "NT", num: 49, ref: "롬 8:38~39", text: "내가 확신하노니 사망이나 생명이나 천사들이나 권세자들이나 현재 일이나 장래 일이나 능력이나 높음이나 깊음이나 다른 어떤 피조물이라도 우리를 우리 주 그리스도 예수 안에 있는 하나님의 사랑에서 끊을 수 없으리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 160, cat: "NT", num: 50, ref: "롬 9:5", text: "조상들도 그들의 것이요 육신으로 하면 그리스도가 그들에게서 나셨으니 그는 만물 위에 계셔서 세세에 찬양을 받으실 하나님이시니라 아멘" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 161, cat: "NT", num: 51, ref: "롬 12:1~2", text: "그러므로 형제들아 내가 하나님의 모든 자비하심으로 너희를 권하노니 너희 몸을 하나님이 기뻐하시는 거룩한 산 제물로 드리라 이는 너희가 드릴 영적 예배니라 너희는 이 세대를 본받지 말고 오직 마음을 새롭게 함으로 변화를 받아 하나님의 선하시고 기뻐하시고 온전하신 뜻이 무엇인지 분별하도록 하라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 162, cat: "NT", num: 52, ref: "고전 1:18", text: "십자가의 도가 멸망하는 자들에게는 미련한 것이요 구원을 받는 우리에게는 하나님의 능력이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 163, cat: "NT", num: 53, ref: "고전 2:2", text: "내가 너희 중에서 예수 그리스도와 그가 십자가에 못 박히신 것 외에는 아무 것도 알지 아니하기로 작정하였음이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 164, cat: "NT", num: 54, ref: "고전 6:17~20", text: "주와 합하는 자는 한 영이니라 음행을 피하라 사람이 범하는 죄마다 몸 밖에 있거니와 음행하는 자는 자기 몸에 죄를 범하느니라 너희 몸은 너희가 하나님께로부터 받은 바 너희 가운데 계신 성령의 전인 줄을 알지 못하느냐 너희는 너희 자신의 것이 아니라 값으로 산 것이 되었으니 그런즉 너희 몸으로 하나님께 영광을 돌리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 165, cat: "NT", num: 55, ref: "고전 10:31", text: "그런즉 너희가 먹든지 마시든지 무엇을 하든지 다 하나님의 영광을 위하여 하라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 166, cat: "NT", num: 56, ref: "고후 3:17~18", text: "주는 영이시니 주의 영이 계신 곳에는 자유가 있느니라 우리가 다 수건을 벗은 얼굴로 거울을 보는 것 같이 주의 영광을 보매 그와 같은 형상으로 변화하여 영광에서 영광에 이르니 곧 주의 영으로 말미암음이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 167, cat: "NT", num: 57, ref: "고후 5:17", text: "그런즉 누구든지 그리스도 안에 있으면 새로운 피조물이라 이전 것은 지나갔으니 보라 새 것이 되었도다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 168, cat: "NT", num: 58, ref: "고후 5:21", text: "하나님이 죄를 알지도 못하신 이를 우리를 대신하여 죄로 삼으신 것은 우리로 하여금 그 안에서 하나님의 의가 되게 하려 하심이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 169, cat: "NT", num: 59, ref: "갈 1:6~10", text: "그리스도의 은혜로 너희를 부르신 이를 이같이 속히 떠나 다른 복음을 따르는 것을 내가 이상하게 여기노라 다른 복음은 없나니 다만 어떤 사람들이 너희를 교란하여 그리스도의 복음을 변하게 하려 함이라 그러나 우리나 혹은 하늘로부터 온 천사라도 우리가 너희에게 전한 복음 외에 다른 복음을 전하면 저주를 받을지어다 우리가 전에 말하였거니와 내가 지금 다시 말하노니 만일 누구든지 너희가 받은 것 외에 다른 복음을 전하면 저주를 받을지어다 이제 내가 사람들에게 좋게 하랴 하나님께 좋게 하랴 사람들에게 기쁨을 구하랴 내가 지금까지 사람들의 기쁨을 구하였다면 그리스도의 종이 아니니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 170, cat: "NT", num: 60, ref: "갈 2:20", text: "내가 그리스도와 함께 십자가에 못 박혔나니 그런즉 이제는 내가 사는 것이 아니요 오직 내 안에 그리스도께서 사시는 것이라 이제 내가 육체 가운데 사는 것은 나를 사랑하사 나를 위하여 자기 자신을 버리신 하나님의 아들을 믿는 믿음 안에서 사는 것이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 171, cat: "NT", num: 61, ref: "갈 4:4~5", text: "때가 차매 하나님이 그 아들을 보내사 여자에게서 나게 하시고 율법 아래에 나게 하신 것은 율법 아래에 있는 자들을 속량하시고 우리로 아들의 명분을 얻게 하려 하심이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 172, cat: "NT", num: 62, ref: "갈 5:19~26", text: "육체의 일은 분명하니 곧 음행과 더러운 것과 호색과 우상 숭배와 주술과 원수 맺는 것과 분쟁과 시기와 분냄과 당 짓는 것과 분열함과 이단과 투기와 술 취함과 방탕함과 또 그와 같은 것들이라 전에 너희에게 경계한 것 같이 경계하노니 이런 일을 하는 자들은 하나님의 나라를 유업으로 받지 못할 것이요 오직 성령의 열매는 사랑과 희락과 화평과 오래 참음과 자비와 양선과 충성과 온유와 절제니 이같은 것을 금지할 법이 없느니라 그리스도 예수의 사람들은 육체와 함께 그 정욕과 탐심을 십자가에 못 박았느니라 만일 우리가 성령으로 살면 또한 성령으로 행할지니 헛된 영광을 구하여 서로 노엽게 하거나 서로 투기하지 말지니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 173, cat: "NT", num: 63, ref: "엡 1:3~6", text: "찬송하리로다 하나님 곧 우리 주 예수 그리스도의 아버지께서 그리스도 안에서 하늘에 속한 모든 신령한 복을 우리에게 주시되 곧 창세 전에 그리스도 안에서 우리를 택하사 우리로 사랑 안에서 그 앞에 거룩하고 흠이 없게 하시려고 그 기쁘신 뜻대로 우리를 예정하사 예수 그리스도로 말미암아 자기의 아들들이 되게 하셨으니 이는 그가 사랑하시는 자 안에서 우리에게 거저 주시는 바 그의 은혜의 영광을 찬송하게 하려는 것이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 174, cat: "NT", num: 64, ref: "엡 2:1~10", text: "그는 허물과 죄로 죽었던 너희를 살리셨도다 그 때에 너희는 그 가운데서 행하여 이 세상 풍조를 따르고 공중의 권세 잡은 자를 따랐으니 곧 지금 불순종의 아들들 가운데서 역사하는 영이라 전에는 우리도 다 그 가운데서 우리 육체의 욕심을 따라 지내며 육체와 마음의 원하는 것을 하여 다른 이들과 같이 본질상 진노의 자녀이었더니 긍휼이 풍성하신 하나님이 우리를 사랑하신 그 큰 사랑을 인하여 허물로 죽은 우리를 그리스도와 함께 살리셨고 (너희는 은혜로 구원을 받은 것이라) 또 함께 일으키사 그리스도 예수 안에서 함께 하늘에 앉히시니 이는 그리스도 예수 안에서 우리에게 자비하심으로써 그 은혜의 지극히 풍성함을 오는 여러 세대에 나타내려 하심이라 너희는 그 은혜에 의하여 믿음으로 말미암아 구원을 받았으니 이것은 너희에게서 난 것이 아니요 하나님의 선물이라 행위에서 난 것이 아니니 이는 누구든지 자랑하지 못하게 함이라 우리는 그가 만드신 바라 그리스도 예수 안에서 선한 일을 위하여 지으심을 받은 자니 이 일은 하나님이 전에 예비하사 우리로 그 가운데서 행하게 하려 하심이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 175, cat: "NT", num: 65, ref: "엡 6:10~17", text: "끝으로 너희가 주 안에서와 그 힘의 능력으로 강건하여지고 마귀의 간계를 능히 대적하기 위하여 하나님의 전신 갑주를 입으라 우리의 씨름은 혈과 육을 상대하는 것이 아니요 통치자들과 권세들과 이 어둠의 세상 주관자들과 하늘에 있는 악의 영들을 상대함이라 그러므로 하나님의 전신갑주를 취하라 이는 악한 날에 너희가 능히 대적하고 모든 일을 행한 후에 서기 위함이라 그런즉 서서 진리로 너희 허리 띠를 띠고 의의 호심경을 붙이고 평안의 복음이 준비한 것으로 신을 신고 모든 것 위에 믿음의 방패를 가지고 이로써 능히 악한 자의 모든 불화살을 소멸하고 구원의 투구와 성령의 검 곧 하나님의 말씀을 가지라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 176, cat: "NT", num: 66, ref: "빌 1:6", text: "너희 안에서 착한 일을 시작하신 이가 그리스도 예수의 날까지 이루실 줄을 우리는 확신하노라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 177, cat: "NT", num: 67, ref: "빌 2:5~8", text: "너희 안에 이 마음을 품으라 곧 그리스도 예수의 마음이니 그는 근본 하나님의 본체시나 하나님과 동등됨을 취할 것으로 여기지 아니하시고 오히려 자기를 비워 종의 형체를 가지사 사람들과 같이 되셨고 사람의 모양으로 나타나사 자기를 낮추시고 죽기까지 복종하셨으니 곧 십자가에 죽으심이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 178, cat: "NT", num: 68, ref: "빌 3:7~9", text: "그러나 무엇이든지 내게 유익하던 것을 내가 그리스도를 위하여 다 해로 여길뿐더러 또한 모든 것을 해로 여김은 내 주 그리스도 예수를 아는 지식이 가장 고상하기 때문이라 내가 그를 위하여 모든 것을 잃어버리고 배설물로 여김은 그리스도를 얻고 그 안에서 발견되려 함이니 내가 가진 의는 율법에서 난 것이 아니요 오직 그리스도를 믿음으로 말미암은 것이니 곧 믿음으로 하나님께로부터 난 의라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 179, cat: "NT", num: 69, ref: "골 1:18", text: "그는 몸인 교회의 머리시라 그가 근본이시요 죽은 자들 가운데서 먼저 나신 이시니 이는 친히 만물의 으뜸이 되려 하심이요" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 180, cat: "NT", num: 70, ref: "골 2:9", text: "그 안에는 신성의 모든 충만이 육체로 거하시고" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 181, cat: "NT", num: 71, ref: "골 4:2~6", text: "기도를 계속하고 기도에 감사함으로 깨어 있으라 또한 우리를 위하여 기도하되 하나님이 전도할 문을 우리에게 열어 주사 그리스도의 비밀을 말하게 하시기를 구하라 내가 이 일 때문에 매임을 당하였노라 그리하면 내가 마땅히 할 말로써 이 비밀을 나타내리라 외인에 대해서는 지혜로 행하여 세월을 아끼라 너희 말을 항상 은혜 가운데서 소금으로 맛을 냄과 같이 하라 그리하면 각 사람에게 마땅히 대답할 것을 알리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 182, cat: "NT", num: 72, ref: "살전 1:4", text: "하나님의 사랑하심을 받은 형제들아 너희를 택하심을 아노라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 183, cat: "NT", num: 73, ref: "살전 5:16~18", text: "항상 기뻐하라 쉬지 말고 기도하라 범사에 감사하라 이것이 그리스도 예수 안에서 너희를 향하신 하나님의 뜻이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 184, cat: "NT", num: 74, ref: "딤전 1:12~16", text: "나를 능하게 하신 그리스도 예수 우리 주께 내가 감사함은 나를 충성되이 여겨 내게 직분을 맡기심이니 내가 전에는 비방자요 박해자요 폭행자였으나 도리어 긍휼을 입은 것은 내가 믿지 아니할 때에 알지 못하고 행하였음이라 우리 주의 은혜가 그리스도 예수 안에 있는 믿음과 사랑과 함께 넘치도록 풍성하였도다 미쁘다 모든 사람이 받을 만한 이 말이여 그리스도 예수께서 죄인을 구원하시려고 세상에 임하셨다 하였도다 죄인 중에 내가 괴수니라 그러나 내가 긍휼을 입은 까닭은 예수 그리스도께서 내게 먼저 일체 오래 참으심을 보이사 후에 주를 믿어 영생 얻는 자들에게 본이 되게 하려 하심이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 185, cat: "NT", num: 75, ref: "딤전 2:4", text: "하나님은 모든 사람이 구원을 받으며 진리를 아는 데에 이르기를 원하시느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 186, cat: "NT", num: 76, ref: "딤전 2:5", text: "하나님은 한 분이시요 또 하나님과 사람 사이에 중보자도 한 분이시니 곧 사람이신 그리스도 예수라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 187, cat: "NT", num: 77, ref: "딤전 3:1", text: "미쁘다 이 말이여, 곧 사람이 감독의 직분을 얻으려 함은 선한 일을 사모하는 것이라 함이로다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 188, cat: "NT", num: 78, ref: "딤전 3:2~10", text: "그러므로 감독은 책망할 것이 없으며 한 아내의 남편이 되며 절제하며 신중하며 단정하며 나그네를 대접하며 가르치기를 잘하며 술을 즐기지 아니하며 구타하지 아니하며 오직 관용하며 다투지 아니하며 돈을 사랑하지 아니하며 자기 집을 잘 다스려 자녀들로 모든 공손함으로 복종하게 하는 자라야 할지며 (사람이 자기 집을 다스릴 줄 알지 못하면 어찌 하나님의 교회를 돌보리요) 새로 입교한 자도 말지니 교만하여져서 마귀를 정죄하는 그 정죄에 빠질까 함이요 또한 외인에게서도 선한 증거를 얻은 자라야 할지니 비방과 마귀의 올무에 빠질까 염려하라 이와 같이 집사들도 정중하고 일구이언을 하지 아니하고 술에 인박히지 아니하고 더러운 이를 탐하지 아니하고 깨끗한 양심에 믿음의 비밀을 가진 자라야 할지니 이에 이 사람들을 먼저 시험하여 보고 그 후에 책망할 것이 없으면 집사의 직분을 맡게 할 것이요" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 189, cat: "NT", num: 79, ref: "딤후 3:14~17", text: "그러나 너는 배우고 확신한 일에 거하라 너는 네가 누구에게서 배운 것을 알며 또 어려서부터 성경을 알았나니 성경은 능히 너로 하여금 그리스도 예수 안에 있는 믿음으로 말미암아 구원에 이르는 지혜가 있게 하느니라 모든 성경은 하나님의 감동으로 된 것으로 교훈과 책망과 바르게 함과 의로 교육하기에 유익하니 이는 하나님의 사람으로 온전하게 하며 모든 선한 일을 행할 능력을 갖추게 하려 함이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 190, cat: "NT", num: 80, ref: "딛 2:11~14", text: "모든 사람에게 구원을 주시는 하나님의 은혜가 나타나 우리를 양육하시되 경건하지 않은 것과 이 세상 정욕을 다 버리고 신중함과 의로움과 경건함으로 이 세상에 살고 복스러운 소망과 우리의 크신 하나님 구주 예수 그리스도의 영광이 나타나심을 기다리게 하셨으니 그가 우리를 대신하여 자신을 주심은 모든 불법에서 우리를 속량하시고 우리를 깨끗하게 하사 선한 일을 열심히 하는 자기 백성이 되게 하려 하심이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 191, cat: "NT", num: 81, ref: "몬 1:8~10", text: "이러므로 내가 그리스도 안에서 아주 담대하게 네게 마땅한 일로 명할 수도 있으나 도리어 사랑으로써 간구하노라 나이가 많은 나 바울은 지금 또 예수 그리스도를 위하여 갇힌 자 되어 갇힌 중에서 낳은 아들 오네시모를 위하여 네게 간구하노라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 192, cat: "NT", num: 82, ref: "히 1:3", text: "이는 하나님의 영광의 광채시요 그 본체의 형상이시라 그의 능력의 말씀으로 만물을 붙드시며 죄를 정결하게 하는 일을 하시고 높은 곳에 계신 지극히 크신 이의 우편에 앉으셨느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 193, cat: "NT", num: 83, ref: "히 2:17~18", text: "그러므로 그가 범사에 형제들과 같이 되심이 마땅하도다 이는 하나님의 일에 자비하고 신실한 대제사장이 되어 백성의 죄를 속량하려 하심이라 그가 시험을 받아 고난을 당하셨은즉 시험 받는 자들을 능히 도우실 수 있느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 194, cat: "NT", num: 84, ref: "히 10:1", text: "율법은 장차 올 좋은 일의 그림자일 뿐이요 참 형상이 아니므로 해마다 늘 드리는 같은 제사로는 나아오는 자들을 언제나 온전하게 할 수 없느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 195, cat: "NT", num: 85, ref: "히 10:12~14", text: "오직 그리스도는 죄를 위하여 한 영원한 제사를 드리시고 하나님 우편에 앉으사 그 후에 자기 원수들을 자기 발등상이 되게 하실 때까지 기다리시나니 그가 거룩하게 된 자들을 한 번의 제사로 영원히 온전하게 하셨느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 196, cat: "NT", num: 86, ref: "히 11:1~2", text: "믿음은 바라는 것들의 실상이요 보이지 않는 것들의 증거니 선진들이 이로써 증거를 얻었느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 197, cat: "NT", num: 87, ref: "약 1:5~8", text: "너희 중에 누구든지 지혜가 부족하거든 모든 사람에게 후히 주시고 꾸짖지 아니하시는 하나님께 구하라 그리하면 주시리라 오직 믿음으로 구하고 조금도 의심하지 말라 의심하는 자는 마치 바람에 밀려 요동하는 바다 물결 같으니 이런 사람은 무엇이든지 주께 얻기를 생각하지 말라 두 마음을 품어 모든 일에 정함이 없는 자로다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 198, cat: "NT", num: 88, ref: "약 2:26", text: "영혼 없는 몸이 죽은 것 같이 행함이 없는 믿음은 죽은 것이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 199, cat: "NT", num: 89, ref: "약 3:17~18", text: "오직 위로부터 난 지혜는 첫째 성결하고 다음에 화평하고 관용하고 양순하며 긍휼과 선한 열매가 가득하고 편견과 거짓이 없나니 화평하게 하는 자들은 화평으로 심어 의의 열매를 거두느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 200, cat: "NT", num: 90, ref: "약 5:13~16", text: "너희 중에 고난 당하는 자가 있느냐 그는 기도할 것이요 즐거워하는 자가 있느냐 그는 찬송할 지니라 너희 중에 병든 자가 있느냐 그는 교회의 장로들을 청할 것이요 그들은 주의 이름으로 기름을 바르며 그를 위하여 기도할지니라 믿음의 기도는 병든 자를 구원하리니 주께서 그를 일으키시리라 혹시 죄를 범하였을지라도 사하심을 받으리라 그러므로 너희 죄를 서로 고백하며 병이 낫기를 위하여 서로 기도하라 의인의 간구는 역사하는 힘이 큼이니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 201, cat: "NT", num: 91, ref: "벧전 1:3~5", text: "우리 주 예수 그리스도의 아버지 하나님을 찬송하리로다 그의 많으신 긍휼대로 예수 그리스도를 죽은 자 가운데서 부활하게 하심으로 말미암아 우리를 거듭나게 하사 산 소망이 있게 하시며 썩지 않고 더럽지 않고 쇠하지 아니하는 유업을 잇게 하시나니 곧 너희를 위하여 하늘에 간직하신 것이라 너희는 말세에 나타내기로 예비하신 구원을 얻기 위하여 믿음으로 말미암아 하나님의 능력으로 보호하심을 받았느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 202, cat: "NT", num: 92, ref: "벧전 1:15~16", text: "오직 너희를 부르신 거룩한 이처럼 너희도 모든 행실에 거룩한 자가 되라 기록되었으되 내가 거룩하니 너희도 거룩할지어다 하셨느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 203, cat: "NT", num: 93, ref: "벧전 3:13~17", text: "또 너희가 열심으로 선을 행하면 누가 너희를 해하리요 그러나 의를 위하여 고난을 받으면 복 있는 자니 그들이 두려워하는 것을 두려워하지 말며 근심하지 말고 너희 마음에 그리스도를 주로 삼아 거룩하게 하고 너희 속에 있는 소망에 관한 이유를 묻는 자에게는 대답할 것을 항상 준비하되 온유와 두려움으로 하고 선한 양심을 가지라 이는 그리스도 안에 있는 너희의 선행을 욕하는 자들로 그 비방하는 일에 부끄러움을 당하게 하려 함이라 선을 행함으로 고난 받는 것이 하나님의 뜻일진대 악을 행함으로 고난 받는 것보다 나으니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 204, cat: "NT", num: 94, ref: "벧전 3:22", text: "그는 하늘에 오르사 하나님 우편에 계시니 천사들과 권세들과 능력들이 그에게 복종하느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 205, cat: "NT", num: 95, ref: "벧전 4:1~2", text: "그리스도께서 이미 육체의 고난을 받으셨으니 너희도 같은 마음으로 갑옷을 삼으라 이는 육체의 고난을 받은 자는 죄를 그쳤음이니 그 후로는 다시 사람의 정욕을 따르지 않고 하나님의 뜻을 따라 육체의 남은 때를 살게 하려 함이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 206, cat: "NT", num: 96, ref: "벧전 4:7~10", text: "만물의 마지막이 가까이 왔으니 그러므로 너희는 정신을 차리고 근신하여 기도하라 무엇보다도 뜨겁게 서로 사랑할지니 사랑은 허다한 죄를 덮느니라 서로 대접하기를 원망 없이 하고 각각 은사를 받은 대로 하나님의 여러 가지 은혜를 맡은 선한 청지기 같이 서로 봉사하라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 207, cat: "NT", num: 97, ref: "벧후 1:20~21", text: "먼저 알 것은 성경의 모든 예언은 사사로이 풀 것이 아니니 예언은 언제든지 사람의 뜻으로 낸 것이 아니요 오직 성령의 감동하심을 받은 사람들이 하나님께 받아 말한 것임이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 208, cat: "NT", num: 98, ref: "벧후 3:8~9", text: "사랑하는 자들아 주께는 하루가 천 년 같고 천 년이 하루 같다는 이 한 가지를 잊지 말라 주의 약속은 어떤 이들이 더디다고 생각하는 것 같이 더딘 것이 아니라 오직 주께서는 너희를 대하여 오래 참으사 아무도 멸망하지 아니하고 다 회개하기에 이르기를 원하시느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 209, cat: "NT", num: 99, ref: "요일 1:7", text: "그가 빛 가운데 계신 것 같이 우리도 빛 가운데 행하면 우리가 서로 사귐이 있고 그 아들 예수의 피가 우리를 모든 죄에서 깨끗하게 하실 것이요" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 100, cat: "NT", num: 100, ref: "요일 4:2", text: "이로써 너희가 하나님의 영을 알지니 곧 예수 그리스도께서 육체로 오신 것을 시인하는 영마다 하나님께 속한 것이요" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 211, cat: "NT", num: 101, ref: "요일 4:10", text: "사랑은 여기 있으니 우리가 하나님을 사랑한 것이 아니요 하나님이 우리를 사랑하사 우리 죄를 속하기 위하여 화목 제물로 그 아들을 보내셨음이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 212, cat: "NT", num: 102, ref: "요일 4:19~21", text: "우리가 사랑함은 그가 먼저 우리를 사랑하셨음이라 누구든지 하나님을 사랑하노라 하고 그 형제를 미워하면 이는 거짓말하는 자니 보는 바 그 형제를 사랑하지 아니하는 자는 보지 못하는 바 하나님을 사랑할 수 없느니라 우리가 이 계명을 주께 받았나니 하나님을 사랑하는 자는 또한 그 형제를 사랑할지니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 213, cat: "NT", num: 103, ref: "요이 1:6", text: "또 사랑은 이것이니 우리가 그 계명을 따라 행하는 것이요 계명은 이것이니 너희가 처음부터 들은 바와 같이 그 가운데서 행하라 하심이라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 214, cat: "NT", num: 104, ref: "요삼 1:11", text: "사랑하는 자여 악한 것을 본받지 말고 선한 것을 본받으라 선을 행하는 자는 하나님께 속하고 악을 행하는 자는 하나님을 뵈옵지 못하였느니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 215, cat: "NT", num: 105, ref: "유 1:18~21", text: "그들이 너희에게 말하기를 마지막 때에 자기의 경건하지 않은 정욕대로 행하며 조롱하는 자들이 있으리라 하였나니 이 사람들은 분열을 일으키는 자며 육에 속한 자며 성령이 없는 자니라 사랑하는 자들아 너희는 너희의 지극히 거룩한 믿음 위에 자신을 세우며 성령으로 기도하며 하나님의 사랑 안에서 자신을 지키며 영생에 이르도록 우리 주 예수 그리스도의 긍휼을 기다리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 216, cat: "NT", num: 106, ref: "계 1:8", text: "주 하나님이 이르시되 나는 알파와 오메가라 이제도 있고 전에도 있었고 장차 올 자요 전능한 자라 하시더라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 217, cat: "NT", num: 107, ref: "계 3:14~20", text: "라오디게아 교회의 사자에게 편지하라 아멘이시요 충성되고 참된 증인이시요 하나님의 창조의 근본이신 이가 이르시되 내가 네 행위를 아노니 네가 차지도 아니하고 뜨겁지도 아니하도다 네가 차든지 뜨겁든지 하기를 원하노라 네가 이같이 미지근하여 뜨겁지도 아니하고 차지도 아니하니 내 입에서 너를 토하여 버리리라 네가 말하기를 나는 부자라 부요하여 부족한 것이 없다 하나 네 곤고한 것과 가련한 것과 가난한 것과 눈 먼 것과 벌거벗은 것을 알지 못하는도다 내가 너를 권하노니 내게서 불로 연단한 금을 사서 부요하게 하고 흰 옷을 사서 입어 벌거벗은 수치를 보이지 않게 하고 안약을 사서 눈에 발라 보게 하라 무릇 내가 사랑하는 자를 책망하여 징계하노니 그러므로 네가 열심을 내라 회개하라 볼지어다 내가 문 밖에 서서 두드리노니 누구든지 내 음성을 듣고 문을 열면 내가 그에게로 들어가 그와 더불어 먹고 그는 나와 더불어 먹으리라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 218, cat: "NT", num: 108, ref: "계 14:12", text: "성도들의 인내가 여기 있나니 그들은 하나님의 계명과 예수에 대한 믿음을 지키는 자니라" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 219, cat: "NT", num: 109, ref: "계 22:1~5", text: "또 그가 수정 같이 맑은 생명수의 강을 내게 보이니 하나님과 및 어린 양의 보좌로부터 나와서 길 가운데로 흐르더라 강 좌우에 생명나무가 있어 열두 가지 열매를 맺되 달마다 그 열매를 맺고 그 나무 잎사귀들은 만국을 치료하기 위하여 있더라 다시 저주가 없으며 하나님과 그 어린 양의 보좌가 그 가운데에 있으리니 그의 종들이 그를 섬기며 그의 얼굴을 볼 터이요 그의 이름도 그들의 이마에 있으리라 다시 밤이 없겠고 등불과 햇빛이 쓸 데 없으니 이는 주 하나님이 그들에게 비치심이라 그들이 세세토록 왕 노릇 하리로다" },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ id: 220, cat: "NT", num: 110, ref: "계 22:20", text: "이것들을 증언하신 이가 이르시되 내가 진실로 속히 오리라 하시거늘 아멘 주 예수여 오시옵소서" }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>let currentFilteredList = [...bibleData];</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let currentIndex = 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let currentMode = 'origin'; // origin, partial, random, all</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 초기 실행</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.onload = function() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>renderCard();</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 키보드 방향키 바인딩</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.addEventListener('keydown', function(e) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if(e.key === 'ArrowLeft') prevVerse();</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if(e.key === 'ArrowRight') nextVerse();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 카테고리 필터 전환 (전체, 구약, 신약)</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function filterCategory(cat) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.querySelectorAll('.tab-btn').forEach(btn =&gt; btn.classList.remove('active'));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if(cat === 'all') {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>currentFilteredList = [...bibleData];</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.querySelectorAll('.tab-btn')[0].classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else if (cat === 'OT') {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>currentFilteredList = bibleData.filter(v =&gt; v.cat === 'OT');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.querySelectorAll('.tab-btn')[1].classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else if (cat === 'NT') {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>currentFilteredList = bibleData.filter(v =&gt; v.cat === 'NT');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.querySelectorAll('.tab-btn')[2].classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>currentIndex = 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>renderCard();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 가리기 모드 변경</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function changeMode(mode) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>currentMode = mode;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.querySelectorAll('.mode-btn').forEach(btn =&gt; btn.classList.remove('active'));</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const btnIdx = { 'origin': 0, 'partial': 1, 'random': 2, 'all': 3 };</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.querySelectorAll('.mode-btn')[btnIdx[mode]].classList.add('active');</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>renderCard();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 특정 번호 직접 이동</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function jumpToVerse(val) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let num = parseInt(val);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if(isNaN(num) || num &lt; 1) num = 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if(num &gt; currentFilteredList.length) num = currentFilteredList.length;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>currentIndex = num - 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>renderCard();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 이전/다음 구절 이동</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function prevVerse() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if(currentIndex &gt; 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>currentIndex--;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>renderCard();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function nextVerse() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if(currentIndex &lt; currentFilteredList.length - 1) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>currentIndex++;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>renderCard();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 핵심: 텍스트를 규칙에 맞게 쪼개고 가림막 처리하는 핵심 로직</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function processContent(text) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const words = text.split(' ');</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (currentMode === 'origin') {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (currentMode === 'all') {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return words.map(w =&gt; `&lt;span class="blind"&gt;${w}&lt;/span&gt;`).join(' ');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (currentMode === 'partial') {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 한 다리 건너 하나씩 가리기 (조사 등을 고려해 징검다리 가림막)</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return words.map((w, idx) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (idx % 2 === 1 &amp;&amp; w.length &gt; 1) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>return `&lt;span class="blind"&gt;${w}&lt;/span&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>return w;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}).join(' ');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (currentMode === 'random') {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 단어의 약 35%를 수학적 규칙성 없이 무작위 가리기</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return words.map(w =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (Math.random() &lt; 0.35 &amp;&amp; w.length &gt; 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>return `&lt;span class="blind"&gt;${w}&lt;/span&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>return w;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}).join(' ');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>return text;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 카드 컴포넌트 갱신 렌더링</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function renderCard() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const item = currentFilteredList[currentIndex];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if(!item) return;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 메타정보 및 구절 세팅</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const categoryName = item.cat === 'OT' ? '구약' : '신약';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('verseMeta').innerText = `${categoryName} ${item.num}번 (전체번호: ${item.id})`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('verseRef').innerText = `(${item.ref})`;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 본문 가림막 변환 반영</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('verseText').innerHTML = processContent(item.text);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 네비게이션 인풋 및 하단 진행바 동기화</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('jumpIdx').value = currentIndex + 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('jumpIdx').max = currentFilteredList.length;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('totalCount').innerText = `/ ${currentFilteredList.length}`;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const percentage = Math.round(((currentIndex + 1) / currentFilteredList.length) * 100);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('progressBar').style.width = `${percentage}%`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('progressText').innerText = `${currentIndex + 1}/${currentFilteredList.length} 구절 학습 중 (${percentage}%)`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
